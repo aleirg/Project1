@@ -4,28 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bungee&display=swap">
     <link rel="stylesheet" href="./css/main.css">
     <script defer src="./js/main.js"></script>
     <title>Simon</title>
 </head>
 <body>
-  <section class="container">
-      <header>
-        <h1>A game of Simon</h1></header>
-      <div class="circles">
-        <div class="leftCircles">
-          <div class="circle1" id="blueBtn"></div>
-          <div class="circle2" id="purpleBtn"></div>
-        </div>
-        <div class="rightCircles">
-          <div class="circle3" id="orangeBtn"></div>
-          <div class="circle4" id="greenBtn"></div>
-        </div>
-      </div>
-        <div class="buttons">
+    <section class="header">
+        <h1>A GAME OF SIMON</h1>
+    </section>
+      <section id="circleBoard">
+          <div class="circle1" id="circ1"></div>
+          <div class="circle2" id="circ2"></div>
+          <div class="circle3" id="circ3"></div>
+          <div class="circle4" id="circ4"></div>
+      </section>
+      <section class="buttons">
           <button id="startBtn">Start Game</button>
           <button id="newGameBtn">New Game</button>
-        </div>
-  </section>
+      </section>
 </body>
 </html>
